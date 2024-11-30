@@ -22,7 +22,7 @@ Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instala
 1. Clone este repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/seu-usuario/react-counter-app.git
-   cd react-counter-app
+   git clone https://github.com/professoraguiar/ContadorReact.git
+   cd ContadorReact
    npm install
    npm run dev
