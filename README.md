@@ -1,8 +1,28 @@
-# React + Vite
+# Contador com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Este é um simples contador desenvolvido em React JS utilizando o Vite para um ambiente de desenvolvimento rápido. A aplicação possui três botões para interação com o contador:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Like:** Incrementa o contador em 1.
+- **Dislike:** Decrementa o contador em 1 (somente se o valor for maior que 0).
+- **Reset:** Reseta o contador para 0.
+
+## 🛠 Tecnologias Utilizadas
+
+- **React JS** com Hooks
+- **Vite** para configuração do projeto
+- **JSX** para estruturação dos componentes
+
+## 🚀 Pré-requisitos
+
+Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instalado na sua máquina.
+
+## 📦 Instalação
+
+1. Clone este repositório para o seu ambiente local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/react-counter-app.git
+   cd react-counter-app
+   npm install
+   npm run dev
